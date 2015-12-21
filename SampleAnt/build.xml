@@ -24,7 +24,6 @@
 		<fileset dir="${lib.dir}" includes="*.jar" />
 	</path>
 
-
 	<target name="war" depends="">
 		<mkdir dir="${build-directory}" />
 		<mkdir dir="${jspfiles.dir}" />
